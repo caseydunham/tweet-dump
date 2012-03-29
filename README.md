@@ -1,4 +1,4 @@
-# tweet-dump: Dump tweets from a user [![endorse](http://api.coderwall.com/caseydunham/endorse.png)](http://coderwall.com/caseydunham)
+## tweet-dump: Dump tweets from a user [![endorse](http://api.coderwall.com/caseydunham/endorse.png)](http://coderwall.com/caseydunham)
 
 Retrieve as many tweets as possible from Twitter for a specific user. The total number of tweets that can
 be retrieved depends on the user and Twitter itself. You may not be able to pull down all tweets for a user
@@ -19,5 +19,11 @@ usage:
       --count COUNT  Number of tweets to retrieve per request
       --maxid MAXID  ID of Tweet to start dumping after
 
+All of the retrieved tweets will be dumped to `file` in the format of
+
+    Wed Mar 28 20:26:18 +0000 2012    185100422927219456: u'Chickens are good'
+
+
 Authors: Casey Dunham <casey.dunham@gmail.com>
+
 Version: 0.1
