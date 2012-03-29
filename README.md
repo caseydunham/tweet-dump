@@ -1,6 +1,4 @@
-tweet-dump: Dump tweets from a user
-===================================
-"!http://api.coderwall.com/caseydunham/endorse.png!":http://coderwall.com/caseydunham
+# tweet-dump: Dump tweets from a user [![endorse](http://api.coderwall.com/caseydunham/endorse.png)](http://coderwall.com/caseydunham)
 
 Retrieve as many tweets as possible from Twitter for a specific user. The total number of tweets that can
 be retrieved depends on the user and Twitter itself. You may not be able to pull down all tweets for a user
