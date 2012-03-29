@@ -129,8 +129,8 @@ if __name__ == '__main__':
         exit(1)
 
     print_banner()
-    print "[*] writing tweets to %s " % out_file_name
-    print "[*] dumping tweets for user %s" % screen_name,
+    print "[*] writing tweets to %s \n[*] dumping tweets for user %s" % (out_file_name, screen_name)
+    #print "[*] dumping tweets for user %s" % screen_name,
 
     max_requests = 5
     requests_made = 0
